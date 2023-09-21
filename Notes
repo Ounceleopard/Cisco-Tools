@@ -1,5 +1,12 @@
 # Load balancers
+Manage flow of traffic in simple terms.
 
 # forward proxy 
+protect private network clients from the world
+- Clients traffic go to a web facing server which then is tasked with retrieving the request from outside servers.
+  - Outside servers only know the proxy server's IP 
 
 # reverse proxy 
+protect servers from outside world. 
+- E-com: Clients send requests to a server which then routes that request to the private network of servers.
+  - Protect from DDOS since web clients wont know the extact IP address of the servers inside the network they can only target the web facing server.
