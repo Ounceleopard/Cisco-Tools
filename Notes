@@ -10,3 +10,6 @@ protect private network clients from the world
 protect servers from outside world. 
 - E-com: Clients send requests to a server which then routes that request to the private network of servers.
   - Protect from DDOS since web clients wont know the extact IP address of the servers inside the network they can only target the web facing server.
+
+# Port 443 
+HTTP secure transfers 
